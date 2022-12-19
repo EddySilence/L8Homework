@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.big {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigShow {
+    display: flex;
+}
+
+.area {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+}
+
+.area .img {
+    position: relative;
+    width: 500px;
+}
+
+.area .img img {
+    width: 100%;
+}
+
+.area .content {
+    width: calc(100% - 500px);
+}
+
+.books {
+    padding: 20px;
+}
+
+.book {
+    background-color: rgb(243, 188, 188);
+    margin-bottom: 20px;
+    padding: 5px;
+    display: flex;
+}
+
+.books .book:hover {
+    background-color: rgb(241, 152, 152);
+}
+
+.book .sn {
+    width: 50px;
+}
+
+.book .title {
+    width: calc(100% - 50px - 120px);
+}
+
+.book .author {
+    width: 120px;
+}
